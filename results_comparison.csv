@@ -1,0 +1,6 @@
+model,RMSE,MAE,Precision@10,Recall@10,NDCG@10,Coverage
+Global Mean (floor),0.9341,0.7607,0.006,0.012,0.0228,0.0533
+Item Mean (popularity),0.7527,0.6051,0.043,0.1315,0.1687,0.05
+Matrix Factorization (CF),0.5692,0.4503,0.048,0.1382,0.2256,0.1267
+Content-Based (TF-IDF),1.5713,1.3492,0.0265,0.0664,0.1084,0.9067
+Hybrid (CF + Content),0.6976,0.567,0.048,0.145,0.215,0.39
